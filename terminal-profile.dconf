@@ -1,0 +1,23 @@
+[/]
+background-color='rgb(26,27,38)'
+background-transparency-percent=100
+bold-is-bright=false
+cjk-utf8-ambiguous-width='narrow'
+cursor-background-color='rgb(255,255,255)'
+cursor-colors-set=false
+cursor-foreground-color='rgb(255,255,255)'
+cursor-shape='underline'
+custom-command='pfetch && zsh'
+exit-action='hold'
+font='JetBrainsMono Nerd Font Medium 11'
+foreground-color='rgb(255,255,255)'
+login-shell=false
+palette=['rgb(0,0,0)', 'rgb(230,36,61)', 'rgb(42,217,42)', 'rgb(227,147,42)', 'rgb(51,108,218)', 'rgb(208,55,221)', 'rgb(30,212,212)', 'rgb(170,170,170)', 'rgb(85,85,85)', 'rgb(255,85,85)', 'rgb(85,255,85)', 'rgb(255,255,85)', 'rgb(85,85,255)', 'rgb(255,85,255)', 'rgb(85,255,255)', 'rgb(255,255,255)']
+preserve-working-directory='safe'
+scrollbar-policy='never'
+use-custom-command=false
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+visible-name='Default'

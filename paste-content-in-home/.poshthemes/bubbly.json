@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "final_space": true,
+  "version": 2,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "shell",
+          "style": "diamond",
+          "leading_diamond":" \ue0b6",
+          "trailing_diamond":"\ue0b4",
+          "background": "#565656",
+          "foreground": "#D037DD",
+          "template": "\uf489 {{.Name}} \uf054"
+        }
+      ]
+    },
+    {
+      "type": "rprompt",
+      "alignment": "right",
+      "segments": [
+        
+        {
+          "type": "path",
+          "style": "diamond",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "foreground": "#1ED4D4",
+          "background": "#565656",
+          "template": "\uf413 {{.Path}}",
+          "properties": {
+            "style": "folder"
+          }
+        },
+        {
+          "type": "command",
+          "style": "diamond",
+          "leading_diamond":" \ue0b6",
+          "trailing_diamond":"\ue0b4",
+          "foreground": "#e6243d",
+          "background": "#565656",
+          "template": "\uebc5 {{.Output}}",
+          "properties":{
+            "shell": "bash",
+            "command": "lsb_release -d | cut -c 14-99"
+          }
+        }
+      ]
+    }
+  ]
+}
+
