@@ -11,3 +11,4 @@ Dotfiles for Debianly rice
 
 ## Credits
 Original repo for the neofetch theme [is here](https://github.com/Chick2D/neofetch-themes)
+Font is from [here](https://www.nerdfonts.com/)
